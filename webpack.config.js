@@ -25,6 +25,10 @@ module.exports = {
                 test: /\.js|jsx$/,
                 use: 'babel-loader',
                 exclude: /node_modules/ // 【千万别忘记添加exclude排除项】，否则项目跑不起来
+            },
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']  // 打包处理 CSS 样式表的第三方loader
             }
         ]
     },
