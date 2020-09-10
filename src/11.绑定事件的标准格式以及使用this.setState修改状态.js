@@ -1,9 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import BindInputValue from '@/components/BindInputValue'
+import BindEvent from '@/components/BindEvent'
 
 ReactDOM.render(<div>
-    <BindInputValue></BindInputValue>
+    <BindEvent></BindEvent>
 </div>, document.getElementById('app'))
-

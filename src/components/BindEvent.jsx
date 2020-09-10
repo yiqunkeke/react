@@ -1,3 +1,4 @@
+// 【在React中，绑定事件的标准格式 以及 使用 this.setState({}) 修改私有数据】
 import React from 'react'
 
 export default class BindEvent extends React.Component {
