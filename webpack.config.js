@@ -1,6 +1,8 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
+// 向外暴露一个打包的配置对象，   因为 webpack 是基于 Node 构建的，所以webpack支持所有 Node API 和 语法
+// export default {}  目前不行
 module.exports = {
     mode: 'development',
     devServer: {
